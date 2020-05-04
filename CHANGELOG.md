@@ -34,6 +34,9 @@ Line wrap the file at 100 chars.                                              Th
 - Rename "Block when disconnected" setting to "Always require VPN" and add additional explanation
   of the setting.
 
+#### Android
+- Remove support for Android versions below 7.0 (API level 24).
+
 ### Fixed
 - Fixed bogus or absent update notifications on the desktop app due to incorrect deserialization of
   a struct sent from the daemon.
